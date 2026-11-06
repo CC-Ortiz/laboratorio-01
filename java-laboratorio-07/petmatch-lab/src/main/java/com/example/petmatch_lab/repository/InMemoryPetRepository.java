@@ -13,7 +13,9 @@ public class InMemoryPetRepository {
     private final List<Pet> pets = List.of(
         new Pet(1L, "Luna", "Perro", 3, "Disfruta los paseos y los juegos."),
         new Pet(2L, "Milo", "Gato", 2, "Prefiere lugares tranquilos."),
-        new Pet(3L, "Nube", "Conejo", 1, "Es curioso y le gusta explorar.")
+        new Pet(3L, "Nube", "Conejo", 1, "Es curioso y le gusta explorar."),
+        new Pet(4L, "Lily", "Gato", 2, "Le encanta asolearse."),
+        new Pet(5L, "Max", "Perro", 4, "Es juguetón y amigable.")
     );
 
     public List<Pet> findAll() {
